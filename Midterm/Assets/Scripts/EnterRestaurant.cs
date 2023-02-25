@@ -4,7 +4,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorExitSimple : MonoBehaviour{
+public class EnterRestaurant : MonoBehaviour{
 
       public string NextLevel = "RestaurantScene";
 

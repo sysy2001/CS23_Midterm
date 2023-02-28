@@ -8,7 +8,7 @@ public class CarMove : MonoBehaviour {
       public Rigidbody2D rb;
       public float moveSpeed = 5f;
       public Vector2 movement;
-      public string NextLevel = "RestaurantScene";
+      public string NextLevel = "Restaurant2";
 
       // Auto-load the RigidBody component into the variable:
       void Start(){

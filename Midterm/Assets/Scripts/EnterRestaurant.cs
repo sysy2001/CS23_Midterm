@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class EnterRestaurant : MonoBehaviour{
 
-      public string NextLevel = "RestaurantScene";
+      public string NextLevel = "Restaurant2";
 
       public void OnTriggerEnter2D(Collider2D other){
             if (other.gameObject.tag == "Car"){

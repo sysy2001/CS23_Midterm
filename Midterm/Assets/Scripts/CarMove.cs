@@ -18,6 +18,7 @@ public class CarMove : MonoBehaviour {
       // Listen for player input to move the object:
       void FixedUpdate(){
             movement.x = Input.GetAxisRaw ("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
       }
 

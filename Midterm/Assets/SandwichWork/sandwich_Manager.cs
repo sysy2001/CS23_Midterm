@@ -8,6 +8,7 @@ public class sandwich_Manager : MonoBehaviour{
 	
 	//the bool that knows all!
 	public bool completedSandwich = false;
+        public bool exitScene = false;
 	
 	//recipe images-- pictures or HUD content
 	public GameObject recipe1;
@@ -43,6 +44,14 @@ public class sandwich_Manager : MonoBehaviour{
 		
 		//int sandwichSize = recipeCurrent.Length;
 		//sandwichCurrent.Length = sandwichSize;
+    }
+
+    void Update() {
+        if(exitScene == true) {
+                 StartCoroutine(DelaySceneChange());
+                 SceneManager.LoadScene ("StreetScene");
+        }
+
     }
 
 	//at start, randomly choose a recipe and load it up.
@@ -111,13 +120,14 @@ public class sandwich_Manager : MonoBehaviour{
 		//do the things when success!
 		Debug.Log("You finished the correct sandwich, you pro, you!");
 		success_text.SetActive(true);
+                exitScene = true;
 		//StopCoroutine(DelaySceneChange());
-                StartCoroutine(DelaySceneChange());
-		SceneManager.LoadScene ("StreetScene");
+                //StartCoroutine(DelaySceneChange());
+		//SceneManager.LoadScene ("StreetScene");
 	}
 
 	IEnumerator DelaySceneChange(){
-           yield return new WaitForSeconds(2f);
+           yield return new WaitForSeconds(5f);
       }
 	
 	public void RestartSandwich(){

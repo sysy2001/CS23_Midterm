@@ -39,7 +39,7 @@ public class sandwich_slot : MonoBehaviour{
         if (foodFilled == "bunTop"){item1.SetActive(true); slotBG.SetActive(false);}
 		else if (foodFilled == "lettuce") {item2.SetActive(true); slotBG.SetActive(false);}
 		else if (foodFilled == "tomato") {item3.SetActive(true); slotBG.SetActive(false);}
-		else if (foodFilled == "pickles") {item4.SetActive(true); slotBG.SetActive(false);}
+		else if (foodFilled == "cheese") {item4.SetActive(true); slotBG.SetActive(false);}
 		else if (foodFilled == "meat") {item5.SetActive(true); slotBG.SetActive(false);}
 		else if (foodFilled == "bunBot") {item6.SetActive(true); slotBG.SetActive(false);}
     }

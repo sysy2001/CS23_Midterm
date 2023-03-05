@@ -120,14 +120,15 @@ public class sandwich_Manager : MonoBehaviour{
 		//do the things when success!
 		Debug.Log("You finished the correct sandwich, you pro, you!");
 		success_text.SetActive(true);
-                exitScene = true;
+                
 		//StopCoroutine(DelaySceneChange());
-                //StartCoroutine(DelaySceneChange());
+                StartCoroutine(DelaySceneChange());
 		//SceneManager.LoadScene ("StreetScene");
 	}
 
 	IEnumerator DelaySceneChange(){
-           yield return new WaitForSeconds(5f);
+           yield return new WaitForSeconds(2f);
+	   exitScene = true;
       }
 	
 	public void RestartSandwich(){

@@ -207,11 +207,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &473155130 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6406236412512195920, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
-  m_PrefabInstance: {fileID: 2134556951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619993378
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,13 +283,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619993378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.015142977, y: -0.030850798, z: -10}
-  m_LocalScale: {x: 0.85, y: 0.6, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.87, y: 0.65, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 473155130}
-  m_RootOrder: 14
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1295923009
 GameObject:
@@ -484,6 +479,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 340605729618827420, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 340605729618827420, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.06
+      objectReference: {fileID: 0}
     - target: {fileID: 1352915160918622661, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -492,9 +495,25 @@ PrefabInstance:
       propertyPath: foodItem
       value: cheese
       objectReference: {fileID: 0}
+    - target: {fileID: 3023661201849268516, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644684528529835705, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4096032606161814886, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.99
+      objectReference: {fileID: 0}
     - target: {fileID: 5705246773413072726, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
       propertyPath: m_Name
       value: FoodItem5_cheese
+      objectReference: {fileID: 0}
+    - target: {fileID: 6124265895100737410, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.2
       objectReference: {fileID: 0}
     - target: {fileID: 6406236411218505653, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
       propertyPath: m_IsActive
@@ -871,6 +890,10 @@ PrefabInstance:
     - target: {fileID: 9067558047151945070, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186954495068303059, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.06
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9dee4ca26e207840964a5e0e1c5dcd1, type: 3}

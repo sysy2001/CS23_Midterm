@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/StreetScene.unity
     guid: 25da66b2e19af42b6943d3e569539cfb
   - enabled: 0
-    path: Assets/Scenes/RestaurantScene.unity
+    path: 
     guid: ce6d7a04793a84a5e9f716495bc2c29a
   - enabled: 1
     path: Assets/Scenes/Restaurant2.unity
     guid: ee595944910e04ae191aac661583e356
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 8527f007bdff9411990f665643ca1cd3
   m_configObjects: {}
